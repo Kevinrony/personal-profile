@@ -1,17 +1,60 @@
-body {
+body{
 font-family: Arial, sans-serif;
+background:#f8f9fa;
+margin:0;
+padding:0;
 }
-h2 {
+
+/* Headings */
+h2{
+color:#007bff;
+text-align:center;
+margin-bottom:20px;
 }
-color: #00bbffe4;
-2
-ul {
-list-style-type: none;
-padding: 0;
+
+/* Lists */
+ul{
+list-style-type:none;
+padding:0;
 }
-ul li {
+
+/* List Items */
+ul li{
+background:#f9f8fa;
+padding:12px;
+margin:8px 0;
+border-left:5px solid #007bff;
+border-radius:4px;
 }
-background: #f9f8fa;
-padding: 10px;
-margin: 5px 0;
-border-left: 5px solid #007bff;
+
+/* Profile Image */
+img{
+border-radius:50%;
+box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Social Media Icons */
+.social-icons a{
+color:#333;
+font-size:26px;
+margin:10px;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#007bff;
+transform:scale(1.2);
+}
+
+/* Sections */
+section{
+padding:60px 0;
+}
+
+/* Footer */
+footer{
+background:#212529;
+color:white;
+text-align:center;
+padding:15px;
+}
