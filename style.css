@@ -30,7 +30,7 @@ border-radius:4px;
 /* Profile Image */
 img{
 border-radius:50%;
-box-shadow:0 4px 8px rgba(0,0,0,0.2);
+
 }
 
 /* Social Media Icons */
@@ -58,3 +58,4 @@ color:white;
 text-align:center;
 padding:15px;
 }
+
